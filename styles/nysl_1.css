@@ -1,0 +1,92 @@
+.image_1{
+    content: url(../design1_image1_modified.jpg);
+    width: 100%;
+}
+
+.image_2{
+    content: url(../design1_image1_modified.jpg);
+    width: 100%;
+}
+
+.image_3{
+    content: url(../design1_image1_modified.jpg);
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #ffffff;
+    top: 0%;
+    left:0%;
+    padding: 0px 0px 0px 0px;
+    margin: 50px 0px 0px 50px;
+}
+
+.logo {
+    width: 10%;
+    position: absolute;
+    left: 75%;
+    top: 72%;
+    z-index: 2;
+}
+
+.banner {
+    background-color: #033949;
+    color: white;
+    text-align: center;   
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    z-index: 1;
+}
+
+.text {
+    float: right;
+    margin: 40px 900px 0px 0px;
+}
+
+.text_2 {
+    float: right;
+    margin: 40px 900px 0px 0px;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    margin-left: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 30px;
+    float:left;
+}
+
+li {
+    margin-top: 60px;
+}
+
+.active{
+    font-weight: bold;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
+}
+
+.text_1 {
+    float:right;
+    margin: -200px 200px 0px 200px;
+}

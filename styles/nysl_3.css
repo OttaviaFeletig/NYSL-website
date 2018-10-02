@@ -1,0 +1,446 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: 254px auto;
+    grid-template-rows: 40px 300px 20px 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+
+.nav_container {
+    grid-column: 1/3;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: #033949;
+}
+
+.active {
+    height: 100%;
+    width: 254px;
+    background-color: #a6ff2a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.nav_container a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    width: 254px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav_container a:hover {
+    background-color: #a6ff2a;
+}
+
+.logo_container {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_style {
+    width: 250px;
+}
+
+.image_container{
+    grid-column: 1;
+    grid-row: 4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_1_style {
+    content: url(../soccer_image2.jpg);
+    width: 243px;
+    height: auto;
+    border-radius: 15px;
+    border: solid;
+    border-color: #a6ff2a;
+    border-width: 4px;
+}
+
+.title_container {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_style {
+    font-size: 90px;
+    color: #033949;
+}
+
+.banner_container{
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_style {
+    width: 97%;
+    background-color: #033949;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-style: normal;
+}
+
+.text_container {
+    grid-column: 2;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.text_style {
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 15px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+}
+
+.index_text{
+    margin-left: 20px;
+}
+
+.image_2_style {
+    content: url(../soccer_image3.jpg);
+    width: 187.92px;
+    height: auto;
+    border-radius: 15px;
+    border: solid;
+    border-color: #a6ff2a;
+    border-width: 4px;
+}
+
+.about_text{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.image_3_style {
+    content: url(../844797178-612x612.jpg);
+    width: auto;
+    height: 281.88px;
+    border-radius: 15px;
+    border: solid;
+    border-color: #a6ff2a;
+    border-width: 4px;
+}
+
+.contact_text{
+    margin-left: 20px;
+}
+
+.scroll_style{
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 15px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.game_info_text{
+    margin-left: 20px;
+    margin-right: 0px;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.rules_text{
+    margin-left: 20px;
+    margin-right: 0px;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.rules{
+    margin-right: 20px;
+}
+
+.table_head {
+    text-decoration: underline;
+}
+
+.date_info {
+    font-weight: normal;
+    padding-left: 23.3px;
+}
+
+.other_info {
+    font-weight: normal;
+}
+
+th {
+    width: 280px;
+    height: 40px;
+    text-align: left;
+}
+
+.registration_text{
+    margin-left: 20px;
+    margin-right: 0px;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.italic {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.bottom_margin{
+    margin-bottom: 10px;
+}
+.top_margin{
+    margin-top: 40px;
+}
+
+h2{
+    margin: 0px 0px 0px 0px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+}
+
+.bold_font {
+    font-weight: bold;
+    font-style: normal;
+}
+
+p a:link {
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+p a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+p a:hover {
+    display: contents;
+    font-weight: bold;
+}
+
+.normal_font {
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+
+.head {
+    text-align: center;
+}
+
+.rules {
+    text-align: justify;
+}
+
+.square_list {
+    list-style-type: square;
+}
+
+.sub_list {
+    font-weight: normal;
+    margin: 1em 0px 1em -10px;
+}
+
+.bold_italic {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+h5 {
+    font-size: 1em;
+    margin: 0px 0px 10px 0px;
+}
+
+.small {
+    line-height: 3
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+fieldset {
+    border: none;
+    margin: 10px 10px 0px 0px;
+    text-align: justify;
+}
+
+.left_input {
+    float: left;
+}
+
+.right_input {
+    float: right;
+}
+
+.name_surname_input {
+    width: 460px;
+}
+
+.address_input {
+    width: 1045px;
+}
+
+.city_zip_input {
+    width: 515px;
+}
+
+.birth_date_input {
+    width: 375px;
+}
+
+.right_center_input {
+    float: right;
+    margin-right: 400px;
+}
+
+.parent_input {
+    width: 1032px;
+}
+
+.phone_email_input {
+    width: 468px;
+}
+
+
+.position_played_first_row_right_input {
+    margin-left: 96px;
+}
+
+.position_played_second_row_right_input {
+    margin-left: 96px;
+}
+
+.h3_size {
+    font-size: 18px;
+}
+
+.uniform_size_first_row_right_input {
+    margin-left: 50px;
+}
+
+.uniform_size_second_row_right_input {
+    margin-left: 32px;
+}
+
+.jersey_size_third_row_right_input {
+    margin-left: 48px;
+}
+
+.parent_signature_input {
+    width: 600px;
+}
+
+.date_input {
+    width: 320px;
+}
+
+.submit_btn {
+    background-color: #033949;
+    border: none;
+    color: white;
+    padding: 5px 558.06px 5px 558.06px;
+    border-radius: 15px;
+}
+
+.map {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.map_container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.location_container {
+    width: 48%;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address {
+    width: 50%;
+    height: 10%;
+}
+
+.map_style {
+    border-color: #033949;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+
+.go_back_btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #033949;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.go_back_btn:hover {
+    background-color: #a6ff2a;
+}
+
+.go_back_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5px;
+}

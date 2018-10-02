@@ -1,0 +1,137 @@
+.image1{
+    content: url(../design2_image1.jpg);
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+}
+
+.image2{
+    content: url(../design2_image1.jpg);
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+}
+
+.image3{
+    content: url(../design2_image1.jpg);
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+}
+
+.title {
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #033949;
+    top: 0%;
+    left:0%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.logo {
+    width: 10%;
+    position: absolute;
+    top: 131%;
+    z-index: 2;
+}
+
+.banner {
+    border: solid;
+    border-color: #a6ff2a;
+    border-width: 3px;
+    color: #033949;
+    text-align: center;   
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    z-index: 1;
+}
+
+.text {
+    float: right;
+    margin: 40px 900px 0px 0px;
+}
+
+.text2 {
+    float: right;
+    margin: 40px 900px 0px 0px;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    margin-left: 15px;
+}
+
+ul {
+    position: absolute;
+    left: 75%;
+    top: 6%;
+    list-style-type: none;
+}
+
+li {
+   float: left;
+    margin: 20px;
+}
+
+li a{
+    display:block;
+    padding: 10px;
+    background-color: #033949;
+    border: solid;
+    border-color: black;
+    color: white;
+    box-shadow: 5px 5px black; 
+}
+
+.active{
+    background-color: #a6ff2a;
+    color: white;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    box-shadow: 5px 5px black;
+}
+
+li a:link{
+    text-decoration: none;
+    font-weight: normal;
+}
+
+li a{
+    text-decoration: none;
+    font-weight: normal;
+}
+
+li a:hover{
+    background-color: #a6ff2a;
+}
+
+p a:link{
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+p a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+p a:hover{
+    display:contents;
+    font-weight: bold;
+}
+
+.text1 {
+    float:right;
+    margin: 0px 200px 0px 200px;
+}
+
+
+.text_1 {
+    
+}
